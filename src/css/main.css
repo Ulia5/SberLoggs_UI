@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: #333;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+   
+}
+
+table { font-size: 0.9vw;
+   overflow: auto; 
+   
+ }
+
+ td{
+   max-width: 100ch;
+ }
+
+ /* .wrap{
+   overflow-y:hidden;
+ } */
+ 
+
+.header{
+    background-color: #222;
+    padding: 25px 100px;
+    font-weight: 600;
+}
+
+form input,
+ form button,.filter{
+    width: 15%;
+    padding: 5px 5%;
+    font-family: 'Montserrat','sans-serif';
+    font-weight: 200;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    border: 0;
+    background: #333;
+    color: #fff;
+    outline: none;
+    font-size: 15px;   
+}
+
+
+ form button,.filter{
+    width: 20%;
+    cursor: pointer;
+    transition: transform 500ms ease;
+}
+
+ form button:hover,.filter:hover{
+    transform: scale(1.1);
+}
+
+.ButtonHeader{
+   background-color: #222;
+   color: #b6babd;
+   cursor: pointer;  
+}
+
+main{
+   /* overflow-x:hidden; */
+margin: 0.5% 2.5%;
+ width: 100vw; 
+float:left;
+ overflow: scroll; 
+max-width: 95vw; 
+ overflow-y:hidden;
+}
+
+.table_header{
+   background-color: #222;
+}
+.filter{
+   margin-top: 1%;
+   float: right;
+   background-color: #222;
+}
+
+/* aside{
+width: 20%;s
+margin-top: 50px;
+margin-left: 5%;
+float: left;
+} */
+
+.log{
+max-height: 40%;
+margin-bottom: 15px;
+padding: 5px;
+
+}
+.orangeRed{
+    background-color: #FF4500;
+    color: #230e06;
+}
+.indianRed{
+    background-color:#CD5C5C;
+    color: #290202;
+ }
+ .lightPink{
+    background-color: #FFB6C1;
+    color: #621c26;
+ }
+ .blue{
+    background-color: rgb(255, 255, 0);
+    color: rgb(46, 46, 10);
+ }
+ .yellowGreen{
+    background-color: #9ACD32;
+    color: #134b57;
+ }
+ .dodgerBlue{
+    background-color: #1E90FF;
+    color: #04172a;
+ }
+ .steelBlue{
+    background-color:#4682B4;
+    color: #05121c;
+ }
+
+ #done-icon{
+    float: left;
+    color:#134b57;
+    cursor:pointer;
+    transform: scale(1.25);
+ }
+
+ #done-icon:hover{
+    opacity: 0.5;
+ }
+
+ .done{
+    background-color:#b6babd;
+ }
